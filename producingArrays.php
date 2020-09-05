@@ -31,7 +31,12 @@
 </head>
 <body>
     <?php   
-    # write the traditional greeting
+    $days[] = 'Monday'; $days[] = 'Tuesday'; $days[] = 'Wednesday'; $days[] = 'Thursday'; $days[] = 'Friday';
+    foreach($months as $value) {
+        {
+            echo "&bull: $value ";
+        }
+    }
     echo '<h1>Hello World!</h1>' ;
     ?>
 </body>
