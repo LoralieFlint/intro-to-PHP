@@ -32,12 +32,18 @@
 <body>
     <?php   
     $days[] = 'Monday'; $days[] = 'Tuesday'; $days[] = 'Wednesday'; $days[] = 'Thursday'; $days[] = 'Friday';
-    foreach($months as $value) {
+    foreach($days as $value) {
         {
-            echo "&bull: $value ";
+            echo "&bull; $value ";
         }
     }
     echo '<h1>Hello World!</h1>' ;
+    $months = array("jan" => "January", "feb" => "February", "mar" => "March", "apr" => "April", "may" => "May");
+    echo '<dl>';
+    foreach($months as $key => $value) {
+        {echo "<dt> $key <dd> $value ";}
+    }
+    echo '</dl>'
     ?>
 </body>
 </html>
