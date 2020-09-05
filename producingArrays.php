@@ -12,6 +12,17 @@
 // or
 // array("jan" => "January", "feb" => "February", "mar" => "March", "apr" => "April", "may" => "May")
 
+
+""" Traversing arrays """
+// foreach($months as $value) {
+    // use the current value on each itteration 
+// }
+
+""" Traversing just the keys """
+// foreach($months as $key => $value) {
+    // use the keyu and value on each itteration
+// }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
